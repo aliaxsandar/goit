@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task3</title>
+</head>
+<body>
+<form action="">
+    <label for="name">Name</label> <br>
+    <input type="text" name="name" id="name"> <br> <br>
+
+    <label for="mail">Email</label> <br>
+    <input type="email" name="mail" id="mail"> <br> <br>
+
+    <label for="sex">Sex</label> <br>
+    <input type="radio" name="sex" id="sex" value="male">Male
+    <input type="radio" name="sex" id="sex" value="female">Female <br> <br>
+
+     Current status <br>
+    <input type="checkbox" name="status" value="student">Student <br>
+    <input type="checkbox" name="status" value="employed">Employed <br>
+    <input type="checkbox" name="status" value="unemployed">Unemployed <br> <br>
+
+    Month and Year of birth <br>
+    <select name="month" id="month">
+        <option value="jan">january</option>
+        <option value="feb">february</option>
+        <option value="march">march</option>
+    </select>
+    <select name="year" id="year">
+        <option value="1988">1988</option>
+        <option value="1989">1989</option>
+        <option value="1990">1990</option>
+    </select> <br> <br>
+
+    Skills and Technologies <br>
+    <select name="skills" id="skills" multiple="multiple" size="10">
+        <optgroup label="Tech skills">
+            <option value="html"> HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">javaScript</option>
+            <option value="git">git</option>
+        </optgroup>
+        <optgroup label="Soft skills">
+            <option value="time management">Time management</option>
+            <option value="proactivity">Proactivity</option>
+            <option value="teamwork">Teamwork</option>
+            <option value="leadership">Leadership</option>
+        </optgroup>
+    </select> <br> <br>
+
+    Photo <br>
+    <input type="file"> <br> <br>
+
+    <label for="comments">Comments</label> <br>
+    <textarea name="comment" id="comments" cols="30" rows="10"></textarea> <br>
+    <input type="submit" value="Save">
+
+</form>
+</body>
+</html>
